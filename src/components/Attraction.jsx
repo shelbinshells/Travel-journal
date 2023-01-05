@@ -7,7 +7,7 @@ export default function Attraction(props) {
         
         <div className="attraction">
             
-            <img src={`../images/${props.coverImg}`} 
+            <img src={props.coverImg} 
             className="coverImg" alt={props.title} />
            
             <div className="details">
